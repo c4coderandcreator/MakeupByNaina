@@ -1,3 +1,37 @@
+.navbar{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body {
+  background-color: #000000;
+}
+
 .Logo{
     font-family: 'Alkatra', cursive;
     font-weight: 700;
@@ -16,7 +50,7 @@
   background-size: cover;
 }
 
-.lightbox-gallery{background-image: linear-gradient(#4A148C, #E53935);background-repeat: no-repeat;color: #000;overflow-x: hidden}
+.lightbox-gallery{background-image: linear-gradient(#ca9fff);background-repeat: no-repeat;color: #000;overflow-x: hidden}
 .lightbox-gallery p{color:#fff}
 .lightbox-gallery h2{font-weight:bold;margin-bottom:40px;padding-top:40px;color:#fff}@media (max-width:767px)
 {.lightbox-gallery h2{margin-bottom:25px;padding-top:25px;font-size:24px}}
@@ -27,8 +61,10 @@
 
 #testimonials{
     padding: 7% 15%;
+    font-family: 'Montserrat-bold';
+    font-weight: 300;
     text-align: center;
-    background-color: #6b7ace;
+    background-color: #bacdff;
     color: #000000;
 }
 
@@ -39,7 +75,7 @@
     text-align: center;
 }
 .bottom-container{
-     background-color: #6673bf;
+     background-color: #bacdff;
      padding: 50px 0 ;
      text-align: center;
    }
@@ -47,7 +83,7 @@
    
    .footer-link{
      font-family: 'Merriweather', serif;
-     color: #a4ceff;
+     color: #49024d;
      margin: 20px;
      text-decoration: none;
    }
